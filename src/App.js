@@ -9,19 +9,13 @@ import Footer from './components/Footer'
 
 
 export default function App() {
-
-// LOGIC GOES HERE
-
-
-
-  return (
-    <div>
-        <TopNavigation />
-        <Hero />
-        <Features />
-        <Pricing />
-        <Testimonials />
-        <Footer />
-     </div>
-  )
+    return (
+        <div className='App'>
+            <div className='app-container'>
+                <TopNavigation />
+                <Hero />
+                <Features />
+            </div>
+        </div>
+    )
 }
